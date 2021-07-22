@@ -1,0 +1,104 @@
+/* ----------global------------*/
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4rem;
+}
+img {
+  width: 450px;
+  height: 450px;
+  float: left;
+  margin-right: 20px;
+}
+
+/* ----------article------------*/
+article {
+  border-bottom: 1px solid orange;
+  margin: 40px 0;
+}
+article .orange {
+  background-color: orange;
+}
+
+/* ----------backpack------------*/
+.backpack {
+  padding: 30px 30px;
+  font-size: 20px;
+}
+.backpack .backpack_name,
+.backpack_properties {
+  margin: 0 auto;
+}
+.backpack h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+.backpack_properties {
+  list-style-type: none;
+}
+.backpack_properties li {
+  padding: 5px;
+}
+.backpack_properties .packbackLidStatus span {
+  font-weight: bold;
+}
+.lidButton {
+  background-color: white;
+  color: black;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+.lengthButton {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+
+/* ----------site------------*/
+.siteHeader {
+  margin: 100px 50px;
+  text-align: center;
+}
+.siteTitle {
+  font-weight: bold;
+  font-size: 4rem;
+  font-style: italic;
+}
+.siteDescription {
+  padding: 40px;
+}
+.siteHeader hr {
+  border: 2px dashed black;
+  width: 40px;
+}
+
+/* ----------mainContent------------*/
+.mainContent {
+  width: 80%;
+  margin: 0 auto;
+}
+.mainContent .mainHeader {
+  text-align: center;
+}
+.mainContent .mainDescription {
+  font-size: sans-serif;
+}
+.mainContent hr {
+  border: 2px solid black;
+  width: 90px;
+}
+
+/* ----------footer------------*/
+.siteFooter {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  margin: 100px 20px;
+}
